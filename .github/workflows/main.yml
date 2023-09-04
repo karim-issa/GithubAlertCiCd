@@ -18,6 +18,9 @@ jobs:
       with:
         python-version: 3.11
 
+    - name: Change Directory
+      run: cd GithubAlertCiCd  # Change to your repository directory
+
     - name: Run Python Script
       run: |
         python my_script.py
